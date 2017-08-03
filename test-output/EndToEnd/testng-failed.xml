@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" verbose="0" name="Failed suite [EndToEnd]" parallel="tests">
+  <test name="Login(failed)" parallel="tests">
+    <classes>
+      <class name="com.qait.testNG.data_providers.Data_Providers">
+        <methods>
+          <include name="getdetails" invocation-numbers="1 2"/>
+          <include name="before"/>
+        </methods>
+      </class> <!-- com.qait.testNG.data_providers.Data_Providers -->
+    </classes>
+  </test> <!-- Login(failed) -->
+</suite> <!-- Failed suite [EndToEnd] -->

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite verbose="2" name="DataProviders" parallel="tests" thread-count="5">
+
+	
+
+	<test
+		name="Login"
+		thread-count ="3"
+		parallel = "providers">
+		<classes>
+			<class name="com.qait.testNG.data_providers.Data_Providers" />
+		</classes>
+	</test>
+	</suite>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="37826" started-at="2017-08-03T07:10:10Z" finished-at="2017-08-03T07:10:48Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="37826" started-at="2017-08-03T07:10:10Z" finished-at="2017-08-03T07:10:48Z">
+      <class name="com.qait.testNG.data_providers.Data_Providers">
+        <test-method status="PASS" signature="getdetails(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qait.testNG.data_providers.Data_Providers@47c62251]" name="getdetails" duration-ms="31353" started-at="2017-08-03T12:40:11Z" data-provider="read_excel" finished-at="2017-08-03T12:40:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[navshukla94@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hello]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Hi ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getdetails -->
+        <test-method status="PASS" signature="getdetails(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qait.testNG.data_providers.Data_Providers@47c62251]" name="getdetails" duration-ms="32415" started-at="2017-08-03T12:40:11Z" data-provider="read_excel" finished-at="2017-08-03T12:40:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[navendushekharshukla.007@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[navendu]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Hi ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getdetails -->
+        <test-method status="PASS" signature="getdetails(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qait.testNG.data_providers.Data_Providers@47c62251]" name="getdetails" duration-ms="37282" started-at="2017-08-03T12:40:11Z" data-provider="read_excel" finished-at="2017-08-03T12:40:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[navendushukla@qainfotech.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[qa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Hi ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getdetails -->
+      </class> <!-- com.qait.testNG.data_providers.Data_Providers -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
